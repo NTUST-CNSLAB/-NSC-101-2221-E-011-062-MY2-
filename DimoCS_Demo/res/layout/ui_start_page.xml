@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.24"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome!! "
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/txt_skew1"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:gravity="center"
+            android:text="本裝置第一次登入\n將進行較長時間的偵測\n請避免螢幕休眠導致連線中斷!!"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/buttonSP1"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

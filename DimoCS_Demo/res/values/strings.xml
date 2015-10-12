@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DIMoCS</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">DIMoCS_D</string>
+    <string name="SignIn">Log in</string>
+    <string name="NewID">建立新帳號</string>
+    <string name="pID">Account：</string>
+    <string name="pPW">Password：</string>
+    <string name="new_device">新增裝置</string>
+    <string name="signout">Log out</string>
+    <string name="ccdi_ui_title">DIMoCS裝置辨識系統</string>
+    <string name="user_last_signin_time">上次登入時間：</string>
+    <string name="now_time">Now Time：</string>
+    <string name="txtID">帳號：</string>
+    <string name="btnChID">檢查帳號</string>
+    <string name="txtPW">密碼：</string>
+    <string name="txtCPW">確認密碼：</string>
+    <string name="txtCreat">建立</string>
+    <string name="txtMail">E-mail：</string>
+    <string name="NUname">新增帳號</string>
+    <string name="ui">DIMoCS</string>
+    <string name="registed_skew">Registered CS in this device correspond to your account:</string>
+    <string name="recent_skew">The measured CS:</string>
+    <string name="title_activity_start_page">DIMoCS_D</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_waiting_page">WaitingPage</string>
+
+</resources>
