@@ -1,1 +1,1 @@
-# ClockskewEstimation
+本技術利用電子裝置的時鐘偏斜的唯一性來識別客戶端裝置的硬體，以作為雙因素認證(two factor authentication)的手段。目前一般雲端或網路服務使用的二次認證機制是向使用者手機發送驗證碼，再由使用者鍵入登入畫面來完成認證。本技術的優點是在不需勞煩使用者的情形下完成二次認證。本研究的初期成果包含在行動網路、無線與有線網路與固網環境下確認本技術的可行性，以及如何偵測並排除因為系統校時或切換基地台而產生的跳躍點(jump point)以維持偏斜的估計值不受影響，內容已發表於 The 26th IEEE International Conference on Advanced Information Networking and Applications (IEEE AINA-2012)。利用時鐘偏斜技術來識別裝置的研究雖多，第一個提出客戶端雙因素認證應用以及跳躍點處理機制的應是鄧惟中副教授。
